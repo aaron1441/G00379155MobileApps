@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>All</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let job of jobData">
+    <ion-card-title>{{job.name}}</ion-card-title>
+    <ion-card-content>Company: {{job.company}}</ion-card-content>
+    <ion-card-content>Job Type: {{job.jobType}}</ion-card-content>
+    <ion-card-content>More Info: {{job.redirectJobUrl}}</ion-card-content>
+    <ion-button shape="round" (click)="Fav()">Favourite</ion-button>
+  </ion-card>
+</ion-content>

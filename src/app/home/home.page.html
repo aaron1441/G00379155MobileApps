@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-text >Welcome to the Software Jobs site</ion-text>
+  <ion-card *ngFor="let job of favArray">
+    <ion-card-title>{{job.name}}</ion-card-title>
+    <ion-card-content>Company: {{job.company}}</ion-card-content>
+    <ion-card-content>Job Type: {{job.jobType}}</ion-card-content>
+    <ion-card-content>More Info: {{job.redirectJobUrl}}</ion-card-content>
+   
+  </ion-card>
+</ion-content>
