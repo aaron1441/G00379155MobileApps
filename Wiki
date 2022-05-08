@@ -1,0 +1,4 @@
+This app is a job advertisement app
+It takes jobs from the.json file and displays them
+It displays the jobs in an ion card and a few of the important details
+I added a favourit button with the hope i would be able to get the job selected to move the favourit page but I was unsuccesful in this.
